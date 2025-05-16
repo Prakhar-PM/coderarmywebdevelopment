@@ -1,0 +1,112 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+
+.logo{
+    display: flex;
+    flex-direction: row;
+    background-color: red;
+    padding: 40px;
+    align-items: baseline;
+    justify-content: space-between;
+}
+.right button{
+    font-size: 1rem;
+    margin: 0.5rem;
+    color: white;
+    background-color: red ;
+    border: none;
+    padding-top: .5rem;
+}
+.search{
+    
+    display: flex;
+    flex-direction: row;
+    background-color: grey;
+    justify-content: center;
+    align-items: center;
+    /* Adjust padding */
+    padding: 2rem 0rem;
+}
+
+.search>button{
+    font-size: 1rem;
+    margin-left: .5rem;
+    border-radius: 10px;
+    background-color: red;
+    color: white;
+    padding: 5px;
+
+}
+.searching{
+    height: 1.5rem;
+    width: 400px;
+    max-width: 60%;
+    font-size: 1rem;
+    border-radius: 5px;
+}
+.hero{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding-top: 2rem;
+    padding-bottom: 2rem;
+}
+.hero > h2{
+    color: white;
+    font-size: 2rem;
+    background-color: black;
+}
+.hero > button{
+    background-color: red;
+    color: white;
+    margin-top: 20px;
+    font-size: 2rem;
+    cursor: pointer;
+    padding: 0.5rem;
+    border-radius: 5px;
+}
+.mover{
+    text-align: center;
+    padding: 2rem;
+    font-size: 2rem;
+}
+.movie{
+    display: flex;
+   justify-content: space-evenly;
+   overflow-x: scroll;
+   scrollbar-width: none; /* Hide scrollbar in Firefox */
+   -ms-overflow-style: none;  /* Hide scrollbar in Firefox */
+}
+.card{
+  text-align: center;
+  border: 0.5rem solid grey;
+  background-color: white;
+  margin: 1rem;
+}
+.botom{
+    margin-top: 2rem;  
+    text-align: center;
+   
+}
+.botom > img{
+    max-width: 80%;
+    border-radius: 10px;
+}
+@media( max-width : 650px){
+    .logo{
+         flex-direction: column;
+         align-items: center;
+    }
+    .right{
+        display: flex;
+        flex-direction: column;
+        padding-top: 1rem;
+    }
+    .movie{
+        flex-direction: column;
+    }
+}
+

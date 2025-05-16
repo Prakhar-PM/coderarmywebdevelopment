@@ -1,0 +1,19 @@
+.box{
+    display: inline-block;
+    width: 200px;
+    height: 100px;
+    background-color: aquamarine;
+}
+.container{
+    background-color: brown;
+}
+/*default zinde is auto*/
+.box1{
+    background-color: azure;
+}
+.box2{
+    background-color: bisque;
+    position: relative;
+    top: 10px;
+    z-index: -1;
+}

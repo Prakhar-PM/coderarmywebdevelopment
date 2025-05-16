@@ -1,0 +1,8 @@
+.Circle{
+    background-color: red;
+    height: 200px;
+    width: 200px;
+    border-radius: 50%;
+    margin : auto;/* horizontly chizon ko center mein rakh deta hai */
+    margin-top: 250px;
+}

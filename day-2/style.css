@@ -1,0 +1,36 @@
+h1[draggable = "true"]{
+    background-color: blanchedalmond;
+   }
+.dcds{
+    background-color: antiquewhite;
+}
+#jni{
+    background-color: aqua;
+    width: 30%;
+    height: 20%;
+    border-width: 5px 10px 20px 30px;
+    border-style: solid;
+    border-color: black;
+    padding: 30px;
+}
+
+h2{
+    background-color: cadetblue;
+    /*border-style: solid;
+    border-left-color: blueviolet;
+    border-left-width: 20px;
+    box-sizing: border-box; */
+    
+    padding : 10px ;
+    border: solid blue;
+    box-sizing: border-box;
+}
+
+ul{
+    background-color: tomato;
+    border-width: 3px;
+    border-style: solid;
+    border-color: black;
+    padding: 30px;
+    
+}

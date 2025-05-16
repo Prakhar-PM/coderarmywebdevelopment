@@ -1,0 +1,35 @@
+body{
+    margin: 0;
+    padding: 0;
+    background-color: rgb(49, 66, 60);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height:100vh;
+}
+
+#root{
+    background-color: rgb(196, 169, 137);
+    text-align: center;
+    padding: 20px;
+    border-radius: 5px;
+}
+
+input{
+    font-size: 20px;
+    padding: 5px;
+    margin-bottom: 3px;
+    margin-left: 5px;
+}
+button{
+    display: block;
+    justify-self: center;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    font-size: 25px;
+    border-radius: 10px;
+}
+#result{
+    font-size: larger;
+
+}

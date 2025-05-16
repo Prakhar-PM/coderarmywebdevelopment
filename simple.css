@@ -1,0 +1,30 @@
+body{
+    margin: 0px;
+    padding: 0px;
+     position: relative;
+
+}
+.grandparent{
+   background-color: orange;
+   height: 300px;
+   width: 300px;
+   position: relative;
+   left: 50vh;
+   right: 50vh;
+   top: 50vh;
+   bottom: 50vh; 
+}
+.parent{
+    background-color: green;
+    height: 200px;
+   width: 200px;
+   position: absolute;
+   bottom: 0;
+}
+.child{
+    background-color: yellow;
+    height: 100px;
+   width: 100px;
+   position: absolute;
+   bottom: 0;
+}

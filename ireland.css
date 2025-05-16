@@ -1,0 +1,17 @@
+*{
+    margin: 0;
+}
+.red{
+    background-color: red;
+}
+.white{
+    background-color: white;
+}
+.green{
+    background-color: green;
+}
+.red, .white, .green {
+    width: 32vw;
+    height: 100vh;
+    display: inline-block;
+}

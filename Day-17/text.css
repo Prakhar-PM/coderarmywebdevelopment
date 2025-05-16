@@ -1,0 +1,22 @@
+h1{
+    background-color: aqua;
+    color: orange;
+    /* text-align: justify; */
+    /* direction: rtl; */
+    /* unicode-bidi: bidi-override; */
+    text-decoration: overline underline;
+    /* text decoration style , thickness */
+    text-transform: lowercase;
+}
+/* text align justify saare text ko proper format mein kar deta hai */
+/* direction aur text align mein ye conceptual difference hai ki hum uss text ko read kaise krenge */
+p{
+    background-color: chartreuse;
+    text-align-last: right;
+    line-height: 20px;
+ /* text shadow */
+}
+span{
+    /* vertical-align: sub super; */
+}
+/* text spacing */

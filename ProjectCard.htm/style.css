@@ -1,0 +1,124 @@
+*{
+    margin: 0;
+}
+body{
+    background-color: rgb(252, 255, 255);
+}
+.card{
+    display: inline-block;
+    margin: 20px;
+    cursor: pointer;
+    border: 10px solid rgb(252, 255, 255);
+
+    border-radius: 10px;
+}
+.box{
+    display: inline-block;
+}
+.image img{ 
+    
+    height: 300px;
+    width: 410px;
+    border-radius: 20px;
+    
+}
+.ResturantName{
+    font-size: 20px;
+    font-weight: bold;
+}
+.Resturant,.food,.location{
+    position: relative;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+.rating{
+    background-color: green;
+    font-size: 15px;
+    padding: 5px;
+    font-weight: bold;
+    position: absolute;
+    right: 5px;
+    color: white;
+    border-radius: 5px;
+
+}
+
+.price,.distance{
+    position:absolute;
+    right: 5px;
+}
+.food,.place{
+    font-size: 20px;
+    color: rgb(73, 71, 71);
+}
+.distance{
+    font-size: 15px;
+    font-weight: bold;
+}
+.card:hover{
+    background-color: white;
+    border-color: white;
+    
+}
+.off{
+    position: absolute;
+    bottom: 10px;
+    left: 10px;
+    font-size: 30px;
+    color: white;
+    background-color: rgba(230, 8, 8, 0.6);
+
+}
+.image{
+    position: relative;
+}
+.first,.second{
+    margin-left: 200px;
+    position: relative;
+}
+.brand{
+    color: red;
+    font-style: oblique;
+    margin-right: 30px;
+    font-weight: bold;
+    
+}
+.searching{
+    width: 400px;
+    margin-right: 50px;
+    position: relative;
+    bottom: 5px;
+}
+.images img{
+    height: 70px;
+    width: 70px;
+    border-radius: 50%;
+}
+.dine{
+    position: relative;
+    bottom: 25px;
+    left: 5px;
+    color: gray;
+    font-size: large;
+}
+.delivery{
+    margin-left: 50px;
+    margin-right: 50px;
+}
+.second{
+    margin-top: 25px;
+    margin-bottom: 35px;
+    position: sticky;
+    top: 0;
+}
+main{
+    background-color: beige;
+}
+.log{
+    margin-left: 10px;
+    margin-right: 50px;
+}
+.third{
+    height: 500px;
+    width: 300px;
+}

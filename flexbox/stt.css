@@ -1,0 +1,30 @@
+.container{
+    height: 700px;
+    display: flex;
+    background-color: aquamarine;
+}
+.box{
+    height: 150px;
+    width: 150px;
+    border: 2px solid black;
+
+}
+.box1{
+    background-color: brown;
+    /* flex-grow: 1;   this tries to take availble space left after all boxes accodomation
+    by default it is zero  jyada value jyada space relative to other items*/
+}
+.box2{
+    background-color: aqua;
+}
+.box3{
+    background-color: azure;
+    /* order: -1; ye box sabse pehle aaajyega jitna kam order hoga utna pehle aayega jitna jyada hoga utna baad mein aayega
+    default order is 0 */
+    /* flex-shrink: 2; jaldi shrink hoga as comparee to other
+     */
+     /* align-self: center;  particulary for single document */
+}
+.box4{
+    background-color: yellow;
+}
